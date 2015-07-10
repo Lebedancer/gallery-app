@@ -1,0 +1,106 @@
+@keyframes rotate {
+    0%    { transform: rotate(0deg); }
+    100%  { transform: rotate(360deg); }
+}
+
+.ifun-gall {
+    text-align: center;
+    position: relative;
+}
+
+
+// Elements
+// -----------------------------------------------------
+
+.ifun-gall__item {
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+    width: 200px;
+    min-height: 10px;
+    vertical-align: top
+    margin 0 10px 20px 10px;
+    transition: all 0.3s;
+    background: #fff;
+    border: 1px solid transparent;
+
+    > button {
+        position: absolute;
+        top:0;
+        right: 0;
+        opacity: 0;
+        line-height: 25px;
+        transition: all 0.3s;
+        box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+    }
+}
+
+.ifun-gall__item[disabled] {
+    opacity: 0.5;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3) !important;
+    cursor: default;
+
+    > button {
+        opacity: 1;
+        top:-4px;
+        right: -4px;
+        cursor: default;
+        box-shadow: 0 5px 15px 0 rgba(0,0,0,0.5);
+    }
+
+    .ifun-icon:before {
+        content: "";
+        height: 15px;
+        width: 15px;
+        animation: rotate 0.8s infinite linear;
+        border: 3px solid $textColor;
+        border-right-color: transparent;
+        border-radius: 50%;
+    }
+}
+
+.ifun-gall__item:hover {
+    > button {
+        opacity: 1;
+        top:-4px;
+        right: -4px;
+    }
+
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.5);
+}
+
+.ifun-gall__item--choosen {
+    box-shadow:0 5px 30px 0 $activeColor;
+
+    &:hover {
+        box-shadow:0 5px 30px 0 $activeColor;
+    }
+}
+
+.ifun-gall__emptyBlock {
+    text-align: center;
+    font-size: 40px;
+    color: #EAE7E0;
+    padding-top: 50px;
+}
+
+
+// Variants
+// -----------------------------------------------------
+
+.ifun-gall--dragged {
+    .ifun-gall__item{
+        transition: none !important;
+        box-shadow: none !important;
+        border-color: rgba(0,0,0,0.3);
+        > button {
+            display: none;
+        }
+    }
+}
+
+.ui-droppable.ifun-gall{
+    .ifun-gall__item{
+        position: absolute;
+    }
+}

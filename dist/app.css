@@ -1,0 +1,318 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}* {
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #404040;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+input {
+  border: none;
+  line-height: 30px;
+  padding: 0 10px;
+  outline: none;
+}
+button {
+  background: #eae7e0;
+  border: none;
+  cursor: pointer;
+  padding: 0 10px;
+  transition: all 0.3s;
+  outline: none;
+}
+button:hover {
+  background: #f4f2ec;
+}
+button:active {
+  background: #d5d4d1;
+}
+.if-inputGroup {
+  display: inline-block;
+}
+.if-inputGroup {
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2);
+}
+@font-face {
+  font-family: 'Fun icons';
+  src: url("/dist/fonts/icons.eot");
+  src: url("/dist/fonts/icons.eot?#iefix") format('embedded-opentype'), url("/dist/fonts/icons.woff") format('woff'), url("/dist/fonts/icons.ttf") format('truetype'), url("/dist/fonts/icons.svg") format('svg');
+}
+.ifun-icon:before {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Fun icons';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+.ifun-icon--home:before {
+  content: "s";
+}
+.ifun-icon--gallery:before {
+  content: "a";
+}
+.ifun-icon--smile:before {
+  content: "d";
+}
+.ifun-icon--x:before {
+  content: "x";
+}
+.ifun-icon--daw:before {
+  content: "z";
+}
+.ifun-icon--search:before {
+  content: "f";
+}
+.ifun-icon--menu:before {
+  content: "q";
+}
+.ifun-nav {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  z-index: 100;
+  height: 100%;
+  background: #48a770;
+  transition: all 0.5s;
+  text-align: center;
+  transform: translate3d(-100%, 0, 0);
+}
+.ifun-nav__menu {
+  position: absolute;
+  top: 0;
+  right: -51px;
+  font-size: 35px;
+  padding: 5px 10px;
+  color: #404040;
+  background-color: transparent;
+}
+.ifun-nav__menu:hover {
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,0.5);
+}
+.ifun-nav__logo {
+  display: inline-block;
+  margin: 10px auto;
+  font-size: 90px;
+}
+.ifun-nav__item {
+  text-align: left;
+}
+.ifun-nav__item a {
+  cursor: pointer;
+  display: block;
+  padding: 16px 20px;
+  outline: none;
+  color: #f3efe0;
+  letter-spacing: 1px;
+  font-weight: 400;
+  transition: all 0.3s;
+  font-size: 25px;
+  text-decoration: none;
+}
+.ifun-nav__item a:before {
+  margin-right: 10px;
+}
+.ifun-nav__item a:hover {
+  color: #fff;
+  background-color: #2c774b;
+  box-shadow: 0 7px 5px 0 rgba(0,0,0,0.47);
+}
+.nav--open .ifun-nav {
+  transform: translate3d(0, 0, 0);
+  box-shadow: 3px 0 15px 0 rgba(0,0,0,0.3);
+}
+.nav--open .ifun-nav__menu {
+  right: -28px;
+  background-color: #eae7e0;
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,0.5);
+}
+.ifun-gall {
+  text-align: center;
+  position: relative;
+}
+.ifun-gall__item {
+  position: relative;
+  display: inline-block;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+  width: 200px;
+  min-height: 10px;
+  vertical-align: top;
+  margin: 0 10px 20px 10px;
+  transition: all 0.3s;
+  background: #fff;
+  border: 1px solid transparent;
+}
+.ifun-gall__item > button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  line-height: 25px;
+  transition: all 0.3s;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+}
+.ifun-gall__item[disabled] {
+  opacity: 0.5;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3) !important;
+  cursor: default;
+}
+.ifun-gall__item[disabled] > button {
+  opacity: 1;
+  top: -4px;
+  right: -4px;
+  cursor: default;
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,0.5);
+}
+.ifun-gall__item[disabled] .ifun-icon:before {
+  content: "";
+  height: 15px;
+  width: 15px;
+  animation: rotate 0.8s infinite linear;
+  border: 3px solid #404040;
+  border-right-color: transparent;
+  border-radius: 50%;
+}
+.ifun-gall__item:hover {
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,0.5);
+}
+.ifun-gall__item:hover > button {
+  opacity: 1;
+  top: -4px;
+  right: -4px;
+}
+.ifun-gall__item--choosen {
+  box-shadow: 0 5px 30px 0 #2c774b;
+}
+.ifun-gall__item--choosen:hover {
+  box-shadow: 0 5px 30px 0 #2c774b;
+}
+.ifun-gall__emptyBlock {
+  text-align: center;
+  font-size: 40px;
+  color: #eae7e0;
+  padding-top: 50px;
+}
+.ifun-gall--dragged .ifun-gall__item {
+  transition: none !important;
+  box-shadow: none !important;
+  border-color: rgba(0,0,0,0.3);
+}
+.ifun-gall--dragged .ifun-gall__item > button {
+  display: none;
+}
+.ui-droppable.ifun-gall .ifun-gall__item {
+  position: absolute;
+}
+@-moz-keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.ifun-pageContent {
+  padding: 30px 0 0;
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+  transition: opacity 0.5s;
+}
+.ifun-hp__searchBlock {
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 40px;
+}
+.ifun-hp__searchBlock input {
+  width: 300px;
+}
+.ifun-hp__searchBlock button {
+  height: 30px;
+}
+.ifun-hp__searchBlock button:before {
+  margin-right: 0;
+}
+.nav--open .ifun-pageContent {
+  opacity: 0.4;
+}

@@ -1,0 +1,19 @@
+.error-content {
+    margin: 60px auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.error-content h1{
+    color: darkred;
+    font-size: 80px;
+    display: inline-block;
+}
+
+.error-content span {
+    font-size: 40px;
+    margin-left: 20px;
+    position: relative;
+    top: 10px;
+    color: #404040;
+}

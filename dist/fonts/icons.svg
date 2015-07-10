@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2015 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="glyph" unicode="&#x2b;" d="m375 967h167q17 0 29-12t12-30v-292h292q18 0 30-12t12-29v-167q0-17-12-30t-30-12h-292v-291q0-18-12-30t-29-12h-167q-17 0-30 12t-12 30v291h-291q-18 0-30 12t-12 30v167q0 17 12 29t30 12h291v292q0 18 12 30t30 12z" horiz-adv-x="1000" />
+<glyph glyph-name="picture" unicode="&#x61;" d="m0-68l0 836 1000 0 0-836-1000 0z m76 78l848 0 0 680-848 0 0-680z m90 80l0 59 150 195 102-86 193 291 223-228 0-231-668 0z m0 416q0 37 24 62t62 24q33 0 58-24t24-62q0-33-24-57t-58-25q-37 0-62 25t-24 57z" horiz-adv-x="1000" />
+<glyph glyph-name="smiley-circled" unicode="&#x64;" d="m0 350q0 207 147 354t353 146 354-146 146-354-146-354-354-146-353 146-147 354z m238-262l524 0 0 524-524 0 0-524z m80 246l364 0q0-76-53-128t-129-53-129 53-53 128z m36 122q0 23 16 40t40 16 40-16 17-40-17-40-40-17-40 17-16 40z m175 0q0 23 17 40t40 16 40-16 17-40-17-40-40-17-40 17-17 40z" horiz-adv-x="1000" />
+<glyph glyph-name="search" unicode="&#x66;" d="m746 209l254-255-105-105-254 254q-106-72-232-72-169 0-289 120t-120 289 120 289 289 120 289-120 120-289q0-127-72-231z m-65 231q0 113-79 193t-193 80-193-80-80-193 80-192 193-80 193 80 79 192z" horiz-adv-x="1000" />
+<glyph glyph-name="menu" unicode="&#x71;" d="m834 90q42 0 73-30t31-75q0-42-30-73t-74-31l-730 0q-44 0-74 31t-30 73q0 44 31 75t73 30l730 0z m0 364q44 0 74-31t30-73-30-73-74-30l-730 0q-44 0-74 30t-30 73 30 73 74 31l730 0z m0 365q44 0 74-31t30-73q0-43-31-74t-73-31l-730 0q-43 0-73 31t-31 74q0 43 30 73t74 31l730 0z" horiz-adv-x="938" />
+<glyph glyph-name="home-1" unicode="&#x73;" d="m0-150l0 649 453 351 453-351 0-649-312 0 0 391-281 0 0-391-313 0z" horiz-adv-x="906" />
+<glyph glyph-name="glyph-1" unicode="&#x78;" d="m753 953l149-150q6-6 6-15t-6-15l-223-223 223-223q6-6 6-15t-6-15l-149-149q-6-6-15-6t-15 6l-223 223-223-223q-6-6-15-6t-15 6l-149 149q-6 6-6 15t6 15l223 223-223 223q-6 6-6 15t6 15l149 149q6 6 15 6t15-6l223-223 223 224q6 5 15 5t15-5z" horiz-adv-x="1000" />
+<glyph glyph-name="glyph-2" unicode="&#x7a;" d="m388 448l475 475q7 7 15 7t15-7l147-147q7-6 7-14t-7-15l-652-654q-6-6-15-6t-15 6l-320 320q-6 7-6 15t6 15l148 147q6 7 14 7t15-7l143-142q5-6 15-6t15 6z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

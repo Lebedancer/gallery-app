@@ -1,0 +1,35 @@
+@require "nav"
+@require "gallery"
+
+.ifun-pageContent {
+    padding: 30px 0 0;
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    transition: opacity 0.5s;
+}
+
+.ifun-hp__searchBlock {
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 40px;
+
+    input {
+        width: 300px;
+    }
+
+    button {
+        height: 30px;
+
+        &:before{
+            margin-right: 0;
+        }
+    }
+}
+
+
+.nav--open {
+    .ifun-pageContent {
+        opacity 0.4;
+    }
+}

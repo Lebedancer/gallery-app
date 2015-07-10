@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Fun icons';
+    src: url($icon-fontPath + $icon-fontName + '.eot');
+    src: url($icon-fontPath + $icon-fontName + '.eot?#iefix') format('embedded-opentype'),
+    url($icon-fontPath + $icon-fontName + '.woff') format('woff'),
+    url($icon-fontPath + $icon-fontName + '.ttf') format('truetype'),
+    url($icon-fontPath + $icon-fontName + '.svg') format('svg');
+}
+
+.ifun-icon:before {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Fun icons';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+}
+
+.ifun-icon--home         { &:before { content: "s"; } }
+.ifun-icon--gallery      { &:before { content: "a"; } }
+.ifun-icon--smile        { &:before { content: "d"; } }
+.ifun-icon--x            { &:before { content: "x"; } }
+.ifun-icon--daw          { &:before { content: "z"; } }
+.ifun-icon--search       { &:before { content: "f"; } }
+.ifun-icon--menu         { &:before { content: "q"; } }

@@ -1,0 +1,10 @@
+doctype html
+html
+  head
+    title Что то пошло не так
+    link(rel='stylesheet', href='dist/error.css')
+  body
+    block content
+        .error-content
+            h1= status
+            span= message

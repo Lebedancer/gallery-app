@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title Приложулечка
+    link(rel='stylesheet', href='dist/app.css')
+  body
+    #navRegion
+    #pageContent.ifun-pageContent
+    #sectionScripts
+        script(src='dist/app.js')
+    #sectionTemplates
+        include ./templates/companyPageLayoutTemplate
+        include ./templates/galleryViewPureRowTemplate
+        include ./templates/galleryViewRowTemplate
+        include ./templates/navBarTemplate

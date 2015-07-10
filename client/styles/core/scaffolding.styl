@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $fontFamily-base;
+    font-size: $fontSize-base;
+    line-height: $lineHeight-base;
+    color: $textColor;
+    background-color: $bodyColor;
+    overflow-x: hidden;
+}
+
+
+input{
+    border: none;
+    line-height: 30px;
+    padding: 0 10px;
+    outline: none;
+}
+
+button {
+    background: #EAE7E0;
+    border: none;
+    cursor: pointer;
+    padding: 0 10px;
+    transition: all 0.3s;
+    outline: none;
+
+    &:hover {
+        background: #F4F2EC;
+    }
+
+    &:active {
+        background: #D5D4D1;
+    }
+}
