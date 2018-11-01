@@ -1,6 +1,4 @@
-require('../styles/app.styl');
-
 $(function () {
-    var app = require('./main/runApp');
+    var app = {};
     app.start();
 });
